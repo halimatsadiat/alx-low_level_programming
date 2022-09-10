@@ -11,7 +11,7 @@ int main(void)
 	printf("\nLowercase characters : \n");
 	    for (ch = 'a'; ch <= 'z'; ch++)
 	    {
-		    printf("%c ", ch);
+		    printf("%c", ch);
 	    }
 	    return (0);
 }
