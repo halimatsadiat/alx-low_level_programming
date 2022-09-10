@@ -8,10 +8,9 @@
 int main(void)
 {
 	char ch;
-	printf("\nLowercase characters : \n");
 	    for (ch = 'a'; ch <= 'z'; ch++)
 	    {
-		    printf("%c", ch);
+		    putchar("%c", ch);
 	    }
 	    return (0);
 }
