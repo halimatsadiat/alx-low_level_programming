@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - print timestable starting from 0
- * @n - value
+ * @n: value
  */
 void print_times_table(int n)
 {
@@ -33,11 +33,11 @@ void print_times_table(int n)
 					_putchar((mul / 100) + '0');
 					_putchar(((mul / 10)) % 10 + '0');
 				}
-				else if (mul <= 99 && mul  >= 10)
+				else if (times <= 99 && times  >= 10)
 				{
-					_putchar((mul / 10) + '0');
+					_putchar((times / 10) + '0');
 				}
-				_putchar((mul % 10) + '0');
+				_putchar((times % 10) + '0');
 			}
 			_putchar('\n');
 		}
