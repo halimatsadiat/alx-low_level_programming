@@ -10,7 +10,7 @@
  */
 int print_sign(int x)
 {
-	if( a > 0)
+	if(x > 0)
 	{
 		_putchar('+');
 		return (1);
