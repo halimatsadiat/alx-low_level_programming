@@ -30,8 +30,8 @@ void print_times_table(int n)
 				}
 				if (times >= 100)
 				{
-					_putchar((mul / 100) + '0');
-					_putchar(((mul / 10)) % 10 + '0');
+					_putchar((times / 100) + '0');
+					_putchar(((times / 10)) % 10 + '0');
 				}
 				else if (times <= 99 && times  >= 10)
 				{
