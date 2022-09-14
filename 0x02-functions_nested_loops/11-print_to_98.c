@@ -4,7 +4,7 @@
  * print_to_98 - print all natural numbers to 98
  * @n: count number
  */
-void print_to_98(void)
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
