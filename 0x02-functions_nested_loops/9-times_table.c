@@ -12,7 +12,11 @@ void times_table(void)
 		for (mul = 0; mul <= 9; mul++)
 		{
 			nineTimes = nums * mul;
-			_putchar((nineTimes % 10) + '0');
+			_putchar((nineTimes);
+			_putchar(',');
+			_putchar(' ');
+			if (mul == 9)
+			continue;
 		}
 		_putchar('\n');
 	}
