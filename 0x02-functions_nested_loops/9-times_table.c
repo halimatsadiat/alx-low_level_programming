@@ -7,12 +7,12 @@ void times_table(void)
 {
 	int  nums, mul, nineTimes;
 
-	for ( nums = 0; nums <= 9; nums++)
+	for (nums = 0; nums <= 9; nums++)
 	{
 		for (mul = 0; mul <= 9; mul++)
 		{
 			nineTimes = nums * mul;
-			_putchar(nineTimes);
+			_putchar((nineTimes % 10) + '0');
 			_putchar(',');
 			_putchar(' ');
 		}
