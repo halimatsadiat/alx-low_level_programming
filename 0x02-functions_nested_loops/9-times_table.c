@@ -15,8 +15,6 @@ void times_table(void)
 			_putchar(nineTimes);
 			_putchar(',');
 			_putchar(' ');
-			if (mul == 9)
-			continue;
 		}
 		_putchar('\n');
 	}
