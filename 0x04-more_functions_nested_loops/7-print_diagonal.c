@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - Draws a diagonal line using \
- * @n: The number of \
+ * print_diagonal - Draws a diagonal line using \ character
+ * @n: The number of \ character
  */
 void print_diagonal(int n)
 {
