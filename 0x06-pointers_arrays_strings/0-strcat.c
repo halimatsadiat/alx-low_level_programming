@@ -7,7 +7,7 @@
  *
  * Return: a ponter to the destination string
  */
-char *strcat(char *dest, char *src)
+char *strcat(char *dest, const char *src)
 {
 	int i = 0, j = 0;
 
@@ -21,6 +21,6 @@ char *strcat(char *dest, char *src)
 		dest[j++] = src[i];
 		i++;
 	}
-	dest[j] = '\0';
+	
 	return (dest);
 }
