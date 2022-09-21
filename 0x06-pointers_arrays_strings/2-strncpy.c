@@ -4,6 +4,7 @@
  * _strncpy - copies a number
  * @dest: buffer
  * @src: source
+ * @n: maximus no of bytes 
  *
  * Return: a pointer to dest
  */
