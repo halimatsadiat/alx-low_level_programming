@@ -9,4 +9,5 @@
 char *leet(char *str)
 {
 	int i = 0, j;
-	char l[
+	char l[];
+}
