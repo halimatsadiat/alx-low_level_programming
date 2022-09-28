@@ -17,5 +17,6 @@ void *_memset(void *s, int c, size_t n)
 	{
 		memory[i] = value;
 	}
+
 	return (memory);
 }
