@@ -9,7 +9,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsignedint bytes = 0;
+	unsigned int bytes = 0;
 	int i;
 
 	while(*s)
@@ -18,14 +18,15 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*s == accept[i])
 			{
-				bytes++;break;
+				bytes++;
+				break;
 			}
 			else if (accept[i + 1] == '\0')
 			{
 				return (bytes);
 			}
 		}
-		s++
+		s++;
 	}
 	return (bytes);
 }
