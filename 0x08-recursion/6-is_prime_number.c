@@ -7,17 +7,14 @@
  * @div: the divisor
  * @n: the number to be checked
  *
- * Return: if number is divisible -0, else, -1
- * Return: if num is prime 1, else, 0
+ * Return: if number is divisible -0, else, -1, if num is prime 1, else, 0
  */
 int is_divisible(int num, int div)
 {
 	if (num % div == 0)
 		return (0);
-	
 	if (div == num / 2)
 		return (1);
-	
 	return (is_divisible(num, div + 1));
 }
 

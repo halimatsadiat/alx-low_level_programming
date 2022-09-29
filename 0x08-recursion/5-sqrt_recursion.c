@@ -4,7 +4,7 @@
  * find_sqrt - find the suare root
  * _sqrt_recursion - return the square root of a number
  * @num: the number to find the sqrt of
- * @root: the root 
+ * @root: the root
  * @n: the number to return the sqrt
  *
  * Return: if n has a natural square root, return n, esle , -1
