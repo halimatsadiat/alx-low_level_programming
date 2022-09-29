@@ -2,10 +2,8 @@
 
 /**
  * find_sqrt - find the suare root
- * _sqrt_recursion - return the square root of a number
  * @num: the number to find the sqrt of
  * @root: the root
- * @n: the number to return the sqrt
  *
  * Return: if n has a natural square root, return n, esle , -1
  */
@@ -22,6 +20,10 @@ int find_sqrt(int num, int root)
 	return (find_sqrt(num, root + 1));
 }
 
+/**
+ * _sqrt_recursion - return the square root of a number
+ * @n: the number to return sqrt
+ * Return: if n has a natural square root, return n, esle , -1
 int _sqrt_recursion(int n)
 {
 	int root = 0;

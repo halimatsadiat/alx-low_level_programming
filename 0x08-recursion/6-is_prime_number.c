@@ -2,12 +2,10 @@
 
 /**
  * is_divisible - check if a num is divisible
- * is_prime_number - check if a num is a prime number
  * @num: the number to check
  * @div: the divisor
- * @n: the number to be checked
  *
- * Return: if number is divisible -0, else, -1, if num is prime 1, else, 0
+ * Return: if number is divisible -0, else, 1
  */
 int is_divisible(int num, int div)
 {
@@ -17,6 +15,13 @@ int is_divisible(int num, int div)
 		return (1);
 	return (is_divisible(num, div + 1));
 }
+
+/**
+ * is_prime_number - check if a num is a prime number
+ * @n: the number to be checked
+ *
+ * Return: if num is prime 1, else, 0
+ */
 
 int is_prime_number(int n)
 {
