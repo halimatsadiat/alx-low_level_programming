@@ -19,7 +19,7 @@ int find_strlen(char *s)
 }
 
 /**
- * check _palindrome - checks if a string is aplindrome
+ * check_palindrome - checks if a string is aplindrome
  * @s: string
  * @len: length of the string
  * @i: the index of s to be checked
@@ -49,4 +49,4 @@ int is_palindrome(char *s)
 	if (!(*s))
 		return (1);
 	return (check_palindrome(s, len, i));
-}
+i}
