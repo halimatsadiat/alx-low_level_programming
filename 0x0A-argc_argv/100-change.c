@@ -6,7 +6,7 @@
  * @argc: argument count
  * @argv: array of pointer
  *
- * Result: succs -1, else 0
+ * Return: success - 1, else 0
  */
 int main(int argc, char *argv[])
 {
@@ -46,6 +46,5 @@ int main(int argc, char *argv[])
 		cents--;
 	}
 	printf("%d\n", coins);
-
 	return (0);
 }
