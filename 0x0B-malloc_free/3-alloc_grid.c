@@ -13,7 +13,7 @@
 int **alloc_grid(int width, int height)
 {
 	int **twoDi;
-	int height_i, width_i;;
+	int height_i, width_i;
 
 	if (width == 0)
 		return (NULL);
