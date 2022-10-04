@@ -48,7 +48,6 @@ int **alloc_grid(int width, int height)
 			twoDi[height_i][width_i] = 0;
 	}
 	twoDi[height_i][width_i] = '\0';
-	twoDi[height_i] = NULL;
 
 	return (twoDi);
 }
