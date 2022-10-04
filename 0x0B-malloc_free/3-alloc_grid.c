@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	if (height <= 0)
-		retrun (NULL);
+		return (NULL);
 
 	twoDi = malloc(sizeof(int *) * height);
 
