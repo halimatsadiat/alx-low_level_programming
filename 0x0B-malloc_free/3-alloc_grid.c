@@ -38,10 +38,8 @@ int **alloc_grid(int width, int height)
 			}
 
 			free(twoDi);
-			return(NULL);
+			return (NULL);
 		}
-
-		return (NULL);
 	}
 
 	for (height_i = 0; height_i < height; height_i++)
