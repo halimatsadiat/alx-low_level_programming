@@ -47,7 +47,7 @@ int **alloc_grid(int width, int height)
 		for (width_i = 0; width_i < width; width_i++)
 			twoDi[height_i][width_i] = 0;
 	}
-	twoDi[height_i][width_i] = '\0';
+	twoDi[height_i][width_i] = NULL;
 
 	return (twoDi);
 }
