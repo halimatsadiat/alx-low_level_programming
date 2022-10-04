@@ -7,7 +7,7 @@
  *
  * Return: if str == MULL or insufficient memory is available - NULL, else, pointer to duplicate string
  */
-char _strdup(char *str)
+char *_strdup(char *str)
 {
 	char *dup;
 	int i, len = 0;

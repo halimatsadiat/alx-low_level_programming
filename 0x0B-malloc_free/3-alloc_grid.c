@@ -11,7 +11,7 @@
 int **alloc_grid(int width, int height)
 {
 	int **twoDi;
-	int height_i, width_i;
+	int height_i, width_i;;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
@@ -33,5 +33,14 @@ int **alloc_grid(int width, int height)
 			}
 			free(twoDi);
 			return (NULL);
+		}
 	}
+
+	for (height_i = 0; height_i < height; height_i++)
+	{
+		for (width_i = 0; width_i < width; width_i++)
+			twoDi[height_i][width_i] = 0;
+	}
+
+	return (twoDi);
 }
