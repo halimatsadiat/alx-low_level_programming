@@ -7,7 +7,7 @@
  * @width: the width
  * @height: the height
  *
- * Retun: if width == 0, height == 0m or function fails -
+ * Return: if width == 0, height == 0 or function fails -
  * NULL, else a pointer to array of int
  */
 int **alloc_grid(int width, int height)
