@@ -21,14 +21,14 @@ int **alloc_grid(int width, int height)
 	if (height <= 0)
 		return (NULL);
 
-	twoDi = malloc(sizeof(int) * height);
+	twoDi = malloc(sizeof(int *) * height);
 
 	if (twoDi == NULL)
 		return (NULL);
 
 	for (height_i  = 0; height_i < height; height_i++)
 	{
-		twoDi[height_i] = malloc(sizeof(int) * width);
+		twoDi[height_i] = malloc(sizeof(int *) * width);
 
 		if (twoDi[height_i] == NULL)
 		{
