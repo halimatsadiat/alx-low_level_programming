@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * *string_nconcat - concatenate two strings using at most an inputted
+ * string_nconcat - concatenate two strings using at most an inputted
  * no of bytes
  * @s1: first string
  * @s2: second string
