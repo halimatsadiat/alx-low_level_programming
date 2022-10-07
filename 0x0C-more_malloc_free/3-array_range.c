@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 /**
- * array_range - Creates an array of integers ordered from min to max, inclusive.
- *  @min: The first value of the array.
- *  @max: The last value of the array.
+ * array_range - Creates an array of integers ordered from
+ * min to max,inclusive.
+ * @min: The first value of the array.
+ * @max: The last value of the array.
  *
- *   Return: If min > max or the function fails - NULL, else apointer
+ * Return: If min > max or the function fails - NULL,
+ * else a pointer
  */
 int *array_range(int min, int max)
 {
