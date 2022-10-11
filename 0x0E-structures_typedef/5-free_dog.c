@@ -5,7 +5,7 @@
  * free_dog - frees dog
  * 2d: dog to be freed
  */
-void free_dog(dog-t *d)
+void free_dog(dog_t *d)
 {
 	if (d == NULL)
 		return;
